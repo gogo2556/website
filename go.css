@@ -1,0 +1,98 @@
+body{
+    background-image: url("bodi.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(58, 3, 129, 0.329);
+    background-attachment: fixed;
+    background-position: left;
+ 
+}
+#paragraph{
+    font-size: 28px;
+    color: rgb(247, 183, 7);
+    padding: 85px;
+    height: 150px;
+    background-position: bottom left;}
+    
+h1{
+  margin-left: 400px;
+  padding: 10px;
+  height: 25px;
+  color: brown;
+}
+ol{
+    list-style-position: inside;
+}
+.p2{
+    margin-left: 100px;
+}
+.p4{
+    color: rgb(61, 247, 5);font-family: initial;
+}
+#paragraph::first-letter{
+    color: rgb(114, 98, 6); font-size: 45pt;font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;            }
+    
+    a:link {
+    color: rgb(64, 5, 112);text-decoration: none;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:hover {
+    color: rgb(236, 7, 7);text-decoration: underline;font-family: cursive;
+}
+a:active{
+    color: rgb(66, 39, 3);font-family: fantasy;
+}
+.p0{
+    background-repeat: unset;
+    border: dotted 2px;
+    background-attachment: fixed;
+    margin-left: 400px;
+}
+.ml{
+    background-image:a, Geneva, Tahoma, sans-serif;
+     url(mam.jpg) ;
+    background-repeat: no-repeat;
+    font-family: Verdan
+   
+    
+}
+.ml{
+    color: rgb(246, 250, 4);
+    background-image: url("kol.jpg");
+
+}
+.mindiv {
+    width:14%;
+    height: 11%;
+    position: absolute;
+    left: 46%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    background-image: url("hk.jpg");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px rgb(240, 5, 5);
+    animation: slider 3s infinite linear;
+}
+@keyframes slider {
+    55%{background-image: url("kola.jpg"); }
+
+    65%{background-image: url("hah.jpg");}
+
+    75%{background-image: url("bk.jpg");}
+
+    85%{ background-image: url("gk.jpg");}
+}
+.T5{
+    margin-left: 40%;
+    background-color: rgb(0, 255, 255);
+    width: 12%;
+    box-shadow: 1px 2px 10px 5px rgb(245, 5, 5);
+}
+.foot{
+    box-shadow: 1px 2px 10px 5px violet;
+    background-position: center;
+    margin-left: 520px;}
+    .histor{
+        color: wheat;
+       background-position: center;
+       margin-left: 50px;
+    }
